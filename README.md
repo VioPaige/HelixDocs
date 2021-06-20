@@ -1,5 +1,3 @@
-"# HelixDocs" 
-
 Helix Discord Bot Documentation
 
     Prefix info
