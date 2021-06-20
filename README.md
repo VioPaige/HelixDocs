@@ -1,5 +1,7 @@
 Helix Discord Bot Documentation
 
+    If you have more questions after reading the docs, or want to request a feature, dm me at Paige#3198
+    
     How to invite the bot to your server
     
         To invite with administrator permission (default invite), paste this oauth url in your browser: 
