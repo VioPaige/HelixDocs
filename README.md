@@ -1,5 +1,13 @@
 Helix Discord Bot Documentation
 
+    How to invite the bot to your server
+    
+        To invite with administrator permission (default invite), paste this oauth url in your browser: 
+            https://discord.com/api/oauth2/authorize?client_id=854015657350529064&permissions=8&scope=bot
+        
+        To invite with weak permissions, use this invite link (You might need to re-invite if new commands are added): 
+            https://discord.com/api/oauth2/authorize?client_id=854015657350529064&permissions=469814374&scope=bot
+    
     Prefix info
 
         Currently, changeable prefixes aren't out for Helix, they will most likely be coming before the end of June, the default prefix is "!!".
