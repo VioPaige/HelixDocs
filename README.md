@@ -65,3 +65,21 @@ Helix Discord Bot Documentation
             - Bot response:
                 - If welcome message is missing:    Please set a valid welcome message!
                 - Sucess case:                      Succesfully set the welcome channel to <channel> and welcome message to <welcome message>
+                
+       - Whois
+            - Arguments:                            <prefix>whois
+            - Requirements to use:                  none
+            - Usage example:                        !!whois @Paige#3198
+            - Bot response:                         Embed with info about the mentioned discord user (if roblox verified, also roblox user info)
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
