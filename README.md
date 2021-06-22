@@ -14,9 +14,15 @@ Helix Discord Bot Documentation
 
         Currently, changeable prefixes aren't out for Helix, they will most likely be coming before the end of June, the default prefix is "!!".
 
+    General info
+        Aliases in command info can be used instead of the command itself, it will still have effect.
+
     Command info 
 
         - Verify
+            - Aliases:
+                - robloverify
+                - robloxverify
             - Arguments:                            <prefix>verify <robloxusername>
             - Requirements to use:                  none
             - Usage example:                        !!verify VioPaige
@@ -28,6 +34,8 @@ Helix Discord Bot Documentation
 
  
         - Ban
+            - Aliases:
+                - exile
             - Arguments:                            <prefix>ban <user mention> <reason>
             - Requirements to use:                  Ban members/Administrator permission
             - Usage example:                        !!ban @Paige#3198 breaking rules
@@ -56,6 +64,8 @@ Helix Discord Bot Documentation
 
 
        - Setwelcome
+            - Aliases:
+                - newwelcome
             - Arguments:                            <prefix>setwelcome <welcome message>
                 - Additional info:                  If you fill in "<@>" in the welcome message, it will get replaced by mention of the user who joined.
                                                     The welcome messages will be sent in the channel you run the command in.
@@ -67,10 +77,20 @@ Helix Discord Bot Documentation
                 - Sucess case:                      Succesfully set the welcome channel to <channel> and welcome message to <welcome message>
                 
        - Whois
+            - Aliases:
+                - userinfo
             - Arguments:                            <prefix>whois
             - Requirements to use:                  none
             - Usage example:                        !!whois @Paige#3198
             - Bot response:                         Embed with info about the mentioned discord user (if roblox verified, also roblox user info)
+       - Avatar
+            - Aliases:
+                - av
+                - pfp
+            - Arguments                             <prefix>avatar
+            - Requirements to use:                  none
+            - Usage example:                        !!avatar @Paige#3198
+            - Bot response:                         Embed containing the mentioned user's avatar/profile picture
        
        
        
