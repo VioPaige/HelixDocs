@@ -12,27 +12,21 @@ Helix Discord Bot Documentation
     
     Prefix info
 
-        Currently, changeable prefixes aren't out for Helix, they will most likely be coming before the end of June, the default prefix is "!!".
+        The default prefix is '!!', change this by using the setprefix command.
 
     General info
         Aliases in command info can be used instead of the command itself, it will still have effect.
 
     Command info 
-
-        - Verify
+        - Avatar
             - Aliases:
-                - robloverify
-                - robloxverify
-            - Arguments:                            <prefix>verify <robloxusername>
+                - av
+                - pfp
+            - Arguments                             <prefix>avatar
             - Requirements to use:                  none
-            - Usage example:                        !!verify VioPaige
-            - Bot response:
-                - If verified before:               Sucessfully verified as <username>, enjoy your stay!
-                - First time:                       Sucessfully found your roblox account, send a friend request to <botuser>, and then re-run the command.
-                - After friend request:             Sucessfully verified as <username>, enjoy your stay!
-                - Invalid username:                 This username does not exist.
-
- 
+            - Usage example:                        !!avatar @Paige#3198
+            - Bot response:                         Embed containing the mentioned user's avatar/profile picture
+    
         - Ban
             - Aliases:
                 - exile
@@ -44,8 +38,8 @@ Helix Discord Bot Documentation
                 - Ban reason(in serv. settings):    Banned by <moderator name> with reason <reason>
                 - Dms (target user):                You were banned from the server <server name> by <moderator name> with reason <reason>.
                 - Not enough permissions:           You do not have permission to use this command.
-
-
+                
+                
         - Kick
             - Arguments:                            <prefix>kick <user mention> <reason>
             - Requirements to use:                  Kick members/Administrator permission
@@ -63,6 +57,17 @@ Helix Discord Bot Documentation
             - Bot response:                         Embed with info about the server the command was ran in.
 
 
+        - Setprefix
+            - Aliases:
+                - newprefix
+            - Arguments:                            <prefix>setprefix <prefix that you want> (keep in mind you'll need to use the new prefix for this command after the change)
+            - Requirements to use:                  Admin or Manage Server permission
+            - Usage example:                        !!setprefix ?
+            - Bot response:
+                - Success:                          Succesfully updated prefix for this server to '<prefix that you chose>'
+                - Not enough permissions:           You need Admin or Manage Guild permissions to run this command.
+                
+                
        - Setwelcome
             - Aliases:
                 - newwelcome
@@ -75,7 +80,22 @@ Helix Discord Bot Documentation
             - Bot response:
                 - If welcome message is missing:    Please set a valid welcome message!
                 - Sucess case:                      Succesfully set the welcome channel to <channel> and welcome message to <welcome message>
-                
+               
+               
+        - Verify
+            - Aliases:
+                - robloverify
+                - robloxverify
+            - Arguments:                            <prefix>verify <robloxusername>
+            - Requirements to use:                  none
+            - Usage example:                        !!verify VioPaige
+            - Bot response:
+                - If verified before:               Sucessfully verified as <username>, enjoy your stay!
+                - First time:                       Sucessfully found your roblox account, send a friend request to <botuser>, and then re-run the command.
+                - After friend request:             Sucessfully verified as <username>, enjoy your stay!
+                - Invalid username:                 This username does not exist.
+
+ 
        - Whois
             - Aliases:
                 - userinfo
@@ -83,17 +103,7 @@ Helix Discord Bot Documentation
             - Requirements to use:                  none
             - Usage example:                        !!whois @Paige#3198
             - Bot response:                         Embed with info about the mentioned discord user (if roblox verified, also roblox user info)
-       - Avatar
-            - Aliases:
-                - av
-                - pfp
-            - Arguments                             <prefix>avatar
-            - Requirements to use:                  none
-            - Usage example:                        !!avatar @Paige#3198
-            - Bot response:                         Embed containing the mentioned user's avatar/profile picture
-       
-       
-       
+
        
        
        
